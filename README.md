@@ -25,10 +25,10 @@ https://user-images.githubusercontent.com/33992296/228603274-97965ad1-ae8d-4bbc-
 
 ## Searching
 
-### City Doesn't Exist
 Once the app has been launched on your device or a simulator, click the search icon in the top right corner to open the search page. To search for a city, type it in the search field and click the search cell below. 
 
-If your city name is made up (ex: Houstatlantavegas, Gotham City) and more importantly **doesn't exist in America** (you'd be surprised how many cities exist in America) you can type it in and verifying you receive the following alert.
+### City Doesn't Exist
+If your city name is made up (ex: Houstatlantavegas, Gotham City) and more importantly **doesn't exist in America** (you'd be surprised how many cities exist in America) you can type it in and verify you receive the following alert.
 
 https://user-images.githubusercontent.com/33992296/228611207-374230c3-59c9-4250-9883-36d302e079bd.mov
 
@@ -38,6 +38,8 @@ If your city does exist in America, type it in and search for it.  It should loa
 When you go back to the home screen, the most recently searched city that **has not been preloaded before** should present as the last searched city
 
 https://user-images.githubusercontent.com/33992296/228613815-69fc4599-153e-4015-a284-f23c3d612792.mov
+
+The stored and managed data will include cities, the most recently searched city, and images disjointly. This way, when you load a new city with the same weather image, for instance, it won't present the loading indicator to fetch this image since it already exists in memory by name.
 
 ### Refreshing Home Page
 
