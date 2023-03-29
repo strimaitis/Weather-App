@@ -39,10 +39,11 @@ When you go back to the home screen, the most recently searched city that **has 
 
 https://user-images.githubusercontent.com/33992296/228613815-69fc4599-153e-4015-a284-f23c3d612792.mov
 
-The stored and managed data will include cities, the most recently searched city, and images disjointly. This way, when you load a new city with the same weather image, for instance, it won't present the loading indicator to fetch this image since it already exists in memory by name.
-
 ### Refreshing Home Page
 
 Since Austin was searched for last and for the first time, it shall appear as the last searched city
 
 <img width="329" alt="Screen Shot 2023-03-29 at 10 05 23 AM" src="https://user-images.githubusercontent.com/33992296/228615796-0f69536e-b018-4ba0-ad45-93dd137bd91f.png">
+
+### Data and Storage
+The stored and managed data includes cities, the most recently searched city, and images disjointly. This way, when you load a new city with a previously loaded weather image, for instance, it won't need to fetch this image from the data point since it already exists in memory by name.
