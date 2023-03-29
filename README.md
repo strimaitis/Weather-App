@@ -45,5 +45,5 @@ Since Austin was searched for last and for the first time, it shall appear as th
 
 <img width="329" alt="Screen Shot 2023-03-29 at 10 05 23 AM" src="https://user-images.githubusercontent.com/33992296/228615796-0f69536e-b018-4ba0-ad45-93dd137bd91f.png">
 
-### Data and Storage
+## Data and Storage
 The stored and managed data includes cities, the most recently searched city, and images disjointly. This way, when you load a new city with a previously loaded weather image, for instance, it won't need to fetch this image from the data point since it already exists in memory by name.
