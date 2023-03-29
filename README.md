@@ -11,7 +11,7 @@ On a similator you'll have to ensure your location is set.  Before launching the
 
 <img width="503" alt="Custom Location Selected" src="https://user-images.githubusercontent.com/33992296/228599919-2a8fe568-ecd0-480a-b592-ae6faf8f0f08.png">
 
-Troubleshooting this will involve making sure the custom coordinates set are assocaited with a real city, so click on Custom Location and check the coordinates match a real city. You can search for your own by searching the city name and its coordinates, just make sure you enter in the right sign relative to the direction. In the example the coordinates 41.881832 N, 87,623177 W represent the windy city Chicago!
+Troubleshooting this will involve making sure the custom coordinates set are assocaited with a real city, so click on Custom Location and check the coordinates match a real city. You can search for your own by searching the city name and its coordinates, just make sure you enter in the right sign relative to the direction. In the example the coordinates 41.881832 N, 87.623177 W represent the windy city Chicago!
 
 <img width="382" alt="Make sure a location is set" src="https://user-images.githubusercontent.com/33992296/228600970-08926690-3988-4e58-b4f9-84378e0f541a.png">
 
@@ -19,7 +19,7 @@ Once you compile and run the app, it should open automically in your simululator
 
 Depending on the Xcode version being used, the simulators can have occassional problems syncing the simulated location. There are open developer tickets concerning this for using coordinate information and GPX files: [Ticket 1](https://developer.apple.com/forums/thread/112745), [Ticket 2](https://developer.apple.com/forums/thread/685994)
 
-When no problems are presented and simulator behaves normally, aceepting location sharing will do the following.
+When no problems are presented and the simulator behaves normally, accepting location sharing will do the following.
 
 https://user-images.githubusercontent.com/33992296/228603274-97965ad1-ae8d-4bbc-a56c-6625504a50e7.mov
 
